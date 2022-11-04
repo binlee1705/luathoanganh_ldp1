@@ -1,0 +1,216 @@
+@media (max-width: 1199px) {
+  .shape {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .wrp {
+    width: calc(100% - 20px);
+  }
+  #whyAboutUs {
+    background: rgb(13, 13, 132);
+  }
+  #whyAboutUs:before {
+    display: none;
+    width: 100%;
+  }
+  #whyAboutUs .wrp {
+    padding: 50px 30px;
+    flex-wrap: wrap;
+  }
+  #whyAboutUs .wrp .left {
+    width: 100%;
+  }
+  #whyAboutUs .wrp .right {
+    margin-top: 70px;
+    margin-bottom: 0;
+    flex: none;
+    padding-left: 0px;
+    gap: 20px;
+    width: 100%;
+  }
+  #whyAboutUs .wrp .right .item {
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 30px;
+    min-height: auto;
+  }
+  #workProcess {
+    padding-top: 60px;
+  }
+  #workProcess .wrp {
+    width: calc(100% - 20px);
+  }
+  #staff:after {
+    width: 100%;
+    border-radius: 0;
+  }
+  #contact:after {
+    width: 100%;
+    border-radius: 0;
+  }
+  #contact .wrp .right {
+    padding-left: 20px;
+  }
+  #promise .wrp .group .item {
+    flex: auto;
+  }
+}
+@media (max-width: 767px) {
+  #header {
+    overflow: hidden;
+    border-radius: 0;
+    padding-bottom: 0;
+  }
+  #header .wrp {
+    flex-wrap: wrap;
+  }
+  #header .wrp .left {
+    width: 100%;
+  }
+  #header .wrp .left .title .top .text {
+    font-size: 40px;
+  }
+  #header .wrp .left .title .bot .text {
+    font-size: 30px;
+  }
+  #header .wrp .left .des {
+    margin-bottom: 30px;
+  }
+  #header .wrp .left .lstBtn {
+    justify-content: center;
+  }
+  #header .wrp .right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #header .wrp .right .bgRight .wImage {
+    width: 100%;
+  }
+  #whyAboutUs {
+    border-bottom-right-radius: 50px;
+  }
+  #whyAboutUs .wrp {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #whyAboutUs .wrp .left .title > span {
+    font-size: 30px;
+  }
+  #whyAboutUs .wrp .left .des {
+    margin-bottom: 0;
+  }
+  #whyAboutUs .wrp .right .item {
+    width: 100%;
+  }
+  #whyAboutUs .wrp .lstBtn.dbmobile-l {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+  }
+  #workProcess {
+    padding-top: 40px;
+  }
+  #workProcess .wrp .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #workProcess .wrp .group {
+    margin-bottom: -20px;
+    border-radius: 0;
+    flex-direction: column;
+  }
+  #workProcess .wrp .group .left,
+#workProcess .wrp .group .right {
+    border-radius: 30px;
+    width: 100%;
+    flex: none;
+  }
+  #staff {
+    padding: 40px 0;
+  }
+  #staff .wrp {
+    width: 100%;
+  }
+  #staff .wrp .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #staff .wrp .group {
+    margin-top: 0;
+  }
+  #staff .wrp .group .item .content {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  #staff .wrp .group .item .content .wImage {
+    width: 130px;
+  }
+  #staff .wrp .group .item .content .info {
+    margin-top: -60px;
+    padding-top: 70px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  #staff .wrp .group .item .content .info .list li {
+    font-size: 14px;
+  }
+  #promise .wrp .title {
+    font-size: 27px;
+  }
+  #promise .wrp .group {
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #promise .wrp .group .item {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: flex-start;
+    border: none;
+    width: 50%;
+  }
+  #promise .wrp .group .item .top .num {
+    font-size: 35px;
+  }
+  #promise .wrp .group .item .content {
+    width: 100%;
+    text-align: center;
+  }
+  #contact {
+    padding: 30px 0;
+  }
+  #contact .wrp {
+    flex-direction: column-reverse;
+  }
+  #contact .wrp .left,
+#contact .wrp .right {
+    width: 100%;
+  }
+  #contact .wrp .right {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #contact .wrp .right .rpTop {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  #contact .wrp .right .price {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  #contact .wrp .right .price .pRight {
+    padding-left: 0;
+  }
+  #contact .wrp .right .price .pLeft {
+    width: 180px;
+  }
+  #contact .wrp .right .price .pLeft .cownDown li {
+    width: 40px;
+    line-height: 40px;
+    flex: none;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=css_rwd.css.map */
