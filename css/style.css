@@ -1259,7 +1259,6 @@ span a {
 body {
   overflow-x: hidden;
   position: relative;
-  background: #fafafa;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -1270,7 +1269,7 @@ body {
   -moz-text-size-adjust: none;
   -o-text-size-adjust: none;
   -webkit-text-size-adjust: none;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 .wrp {
