@@ -971,11 +971,12 @@ body {
             @extend %owl-nav;
             .owl-next,
             .owl-prev {
+              color: #565657;
               width: 76px;
               height: 76px;
               border-radius: 50% !important;
               font-size: 30px;
-              background: rgba(255, 255, 255, 0.9);
+              background: rgba(255, 255, 255, 0.7);
               &.owl-prev {
                 transform: translateX(-50%) translateY(-50%);
               }

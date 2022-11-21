@@ -2232,11 +2232,12 @@ body {
 }
 #profile .content .wrp .right .group .owl-nav .owl-next,
 #profile .content .wrp .right .group .owl-nav .owl-prev {
+  color: #565657;
   width: 76px;
   height: 76px;
   border-radius: 50% !important;
   font-size: 30px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.7);
 }
 #profile .content .wrp .right .group .owl-nav .owl-next.owl-prev,
 #profile .content .wrp .right .group .owl-nav .owl-prev.owl-prev {
