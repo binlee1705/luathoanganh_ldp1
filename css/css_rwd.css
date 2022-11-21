@@ -2,6 +2,32 @@
   .shape {
     display: none;
   }
+  #profile {
+    margin-bottom: 10px;
+  }
+  #profile .content {
+    padding: 60px 0;
+  }
+  #profile .content .wrp {
+    max-width: calc(100% - 40px);
+    flex-direction: column;
+  }
+  #profile .content .wrp .left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #profile .content .wrp .right {
+    width: 100%;
+  }
+  #profile .content .wrp .right .owl-nav {
+    display: none;
+  }
+  #project:after {
+    display: none;
+  }
+  #project .wrp {
+    padding-bottom: 70px;
+  }
 }
 @media (max-width: 991px) {
   .wrp {
@@ -212,5 +238,11 @@
     line-height: 40px;
     flex: none;
     font-size: 16px;
+  }
+  #profile .title {
+    font-size: 30px;
+  }
+  #project .wrp .title {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=css_rwd.css.map */

@@ -901,3 +901,179 @@ body {
     }
   }
 }
+
+#profile {
+  margin-bottom: 110px;
+  .title {
+    text-transform: uppercase;
+    color: rgb(13, 13, 132);
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.4;
+    -webkit-text-stroke-width: 0px;
+  }
+  .content {
+    overflow: hidden;
+    padding: 95px 0;
+    background: url(../pic/bgProfile.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    .wrp {
+      justify-content: space-between;
+      width: 1343px;
+      max-width: 100%;
+      display: flex;
+      .name {
+        font-size: 30px;
+        color: #242424;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 25px;
+      }
+      .left {
+        position: relative;
+        width: 607px;
+        .imageRegis {
+          display: block;
+          width: 100%;
+        }
+        .btnExpand {
+          position: absolute;
+          bottom: 8px;
+          right: 12px;
+          padding: 6px;
+          background: rgba(255, 255, 255, 0.9);
+          display: inline-block;
+          font-size: 25px;
+          cursor: pointer;
+          &:hover {
+            background: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 628px;
+        .group {
+          .wImage {
+            border-radius: 7px;
+            overflow: hidden;
+            &::before {
+              padding-bottom: 100%;
+            }
+          }
+          .owl-nav {
+            @extend %owl-nav;
+            .owl-next,
+            .owl-prev {
+              width: 76px;
+              height: 76px;
+              border-radius: 50% !important;
+              font-size: 30px;
+              background: rgba(255, 255, 255, 0.9);
+              &.owl-prev {
+                transform: translateX(-50%) translateY(-50%);
+              }
+              &.owl-next {
+                transform: translateX(50%) translateY(-50%);
+              }
+            }
+          }
+        }
+        .btnDownloadProfile {
+          display: block;
+          margin-top: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 25px;
+          border-radius: 7px;
+          background: #071c8c;
+          padding: 17px 0 15px 0;
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          transition: 0.3s all ease-in-out;
+          .text {
+            margin-left: 10px;
+          }
+          .icon {
+            img {
+              display: block;
+            }
+          }
+          &:hover {
+            filter: brightness(120%);
+          }
+        }
+      }
+    }
+  }
+}
+
+#project {
+  position: relative;
+  padding-top: 50px;
+  &:after {
+    content: "";
+    display: block;
+    background: rgba(1, 1, 232, 0.1);
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(1, 1, 232, 0.1),
+      rgba(234, 237, 238, 0)
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(1, 1, 232, 0.1),
+      rgba(234, 237, 238, 0)
+    );
+    opacity: 0.3;
+    border-top-left-radius: 175px;
+    height: 100%;
+    width: 85%;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .wrp {
+    padding-bottom: 120px;
+    .title {
+      text-transform: uppercase;
+      color: rgb(13, 13, 132);
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.4;
+      -webkit-text-stroke-width: 0px;
+    }
+    .group {
+      .wImage {
+        &::before {
+          padding-bottom: wImage(198, 323);
+        }
+        margin-bottom: 15px;
+      }
+      .name {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 23px;
+        &:hover {
+          color: rgb(13, 13, 132);
+        }
+      }
+      .owl-dots {
+        margin-top: 20px;
+        @extend %owl-dots;
+      }
+    }
+  }
+}

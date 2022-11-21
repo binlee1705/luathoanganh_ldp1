@@ -93,6 +93,12 @@ $(document).ready(function () {
     $(".tvmp").each(function () {
         animationChar($(this))
     })
+    $("#profile .right .group").each(function () {
+        $(this).owlCarousel(owlslide($(this).find('>*').length, [35, 35, 35, 35, 35, 35], true, true, true, [2, 3, 3, 2, 1], "", ""));
+    });
+    $("#project .group").each(function () {
+        $(this).owlCarousel(owlslide($(this).find('>*').length, [35, 35, 35, 35, 20, 20], true, true, true, [3, 3, 3, 3, 2], "", ""));
+    });
 });
 
 function animationChar(ele, animationIn = "in", animationOut = "out", split = 1) {

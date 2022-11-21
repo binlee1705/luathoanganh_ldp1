@@ -1,4 +1,58 @@
 @charset "UTF-8";
+#project .wrp .group .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.625rem;
+  width: 100%;
+}
+#project .wrp .group .owl-dots .owl-dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  background: #ccc;
+  border-radius: 50%;
+  display: block;
+  margin: 0 0.3125rem;
+}
+#project .wrp .group .owl-dots .owl-dot.active {
+  background: #0c4bab;
+}
+
+#profile .content .wrp .right .group .owl-nav .owl-prev,
+#profile .content .wrp .right .group .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.25rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000;
+  border-radius: 0 0.3125rem 0.3125rem 0;
+}
+#profile .content .wrp .right .group .owl-nav .owl-prev:before,
+#profile .content .wrp .right .group .owl-nav .owl-next:before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f053";
+}
+#profile .content .wrp .right .group .owl-nav .owl-next.owl-next {
+  left: auto;
+  right: 0;
+  border-radius: 0.3125rem 0 0 0.3125rem;
+}
+#profile .content .wrp .right .group .owl-nav .owl-next.owl-next:before {
+  content: "\f054";
+}
+#profile .content .wrp .right .group .owl-nav .owl-prev:hover,
+#profile .content .wrp .right .group .owl-nav .owl-next:hover {
+  background: rgb(255, 255, 255);
+}
+
 .noidung {
   width: 100%;
   min-height: 100px;
@@ -2106,4 +2160,163 @@ body {
 .shape.shape-11 svg {
   transform: rotate(37deg);
   -webkit-transform: rotate(37deg);
+}
+
+#profile {
+  margin-bottom: 110px;
+}
+#profile .title {
+  text-transform: uppercase;
+  color: rgb(13, 13, 132);
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.4;
+  -webkit-text-stroke-width: 0px;
+}
+#profile .content {
+  overflow: hidden;
+  padding: 95px 0;
+  background: url(../pic/bgProfile.png) center no-repeat;
+  background-size: cover;
+  display: flex;
+}
+#profile .content .wrp {
+  justify-content: space-between;
+  width: 1343px;
+  max-width: 100%;
+  display: flex;
+}
+#profile .content .wrp .name {
+  font-size: 30px;
+  color: #242424;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 25px;
+}
+#profile .content .wrp .left {
+  position: relative;
+  width: 607px;
+}
+#profile .content .wrp .left .imageRegis {
+  display: block;
+  width: 100%;
+}
+#profile .content .wrp .left .btnExpand {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+}
+#profile .content .wrp .left .btnExpand:hover {
+  background: rgb(255, 255, 255);
+}
+#profile .content .wrp .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 628px;
+}
+#profile .content .wrp .right .group .wImage {
+  border-radius: 7px;
+  overflow: hidden;
+}
+#profile .content .wrp .right .group .wImage::before {
+  padding-bottom: 100%;
+}
+#profile .content .wrp .right .group .owl-nav .owl-next,
+#profile .content .wrp .right .group .owl-nav .owl-prev {
+  width: 76px;
+  height: 76px;
+  border-radius: 50% !important;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.9);
+}
+#profile .content .wrp .right .group .owl-nav .owl-next.owl-prev,
+#profile .content .wrp .right .group .owl-nav .owl-prev.owl-prev {
+  transform: translateX(-50%) translateY(-50%);
+}
+#profile .content .wrp .right .group .owl-nav .owl-next.owl-next,
+#profile .content .wrp .right .group .owl-nav .owl-prev.owl-next {
+  transform: translateX(50%) translateY(-50%);
+}
+#profile .content .wrp .right .btnDownloadProfile {
+  display: block;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 7px;
+  background: #071c8c;
+  padding: 17px 0 15px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  transition: 0.3s all ease-in-out;
+}
+#profile .content .wrp .right .btnDownloadProfile .text {
+  margin-left: 10px;
+}
+#profile .content .wrp .right .btnDownloadProfile .icon img {
+  display: block;
+}
+#profile .content .wrp .right .btnDownloadProfile:hover {
+  filter: brightness(120%);
+}
+
+#project {
+  position: relative;
+  padding-top: 50px;
+}
+#project:after {
+  content: "";
+  display: block;
+  background: rgba(1, 1, 232, 0.1);
+  background: linear-gradient(180deg, rgba(1, 1, 232, 0.1), rgba(234, 237, 238, 0));
+  opacity: 0.3;
+  border-top-left-radius: 175px;
+  height: 100%;
+  width: 85%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+#project .wrp {
+  padding-bottom: 120px;
+}
+#project .wrp .title {
+  text-transform: uppercase;
+  color: rgb(13, 13, 132);
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.4;
+  -webkit-text-stroke-width: 0px;
+}
+#project .wrp .group .wImage {
+  margin-bottom: 15px;
+}
+#project .wrp .group .wImage::before {
+  padding-bottom: 61.3003095975%;
+}
+#project .wrp .group .name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+}
+#project .wrp .group .name:hover {
+  color: rgb(13, 13, 132);
+}
+#project .wrp .group .owl-dots {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

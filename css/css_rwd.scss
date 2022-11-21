@@ -2,6 +2,34 @@
   .shape {
     display: none;
   }
+  #profile {
+    margin-bottom: 10px;
+    .content {
+      padding: 60px 0;
+      .wrp {
+        max-width: calc(100% - 40px);
+        flex-direction: column;
+        .left {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        .right {
+          width: 100%;
+          .owl-nav {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  #project {
+    &:after {
+      display: none;
+    }
+    .wrp {
+      padding-bottom: 70px;
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -256,6 +284,18 @@
             }
           }
         }
+      }
+    }
+  }
+  #profile {
+    .title {
+      font-size: 30px;
+    }
+  }
+  #project {
+    .wrp {
+      .title {
+        font-size: 30px;
       }
     }
   }
