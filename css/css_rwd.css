@@ -242,6 +242,9 @@
   #profile .title {
     font-size: 30px;
   }
+  #profile .content .wrp .name {
+    font-size: 25px;
+  }
   #project .wrp .title {
     font-size: 30px;
   }
