@@ -146,8 +146,8 @@ $(window).resize(function () {
 })
 $(window).scroll(function () {
     var offsetWindow = $(this).scrollTop();
-    var offsetTopIconService = $("#iconService").offset()?.top ?? 0;
-    var hIconService = $("#iconService").height() ?? 0;
+    var offsetTopIconService = $("#iconService").offset()?.top ?? $("#header1").offset()?.top ?? 0;
+    var hIconService = $("#iconService").height() ?? $("#header1").height() ?? 0;
     if (offsetWindow > 0) {
         $("#header1").addClass("fixTop");
     }
