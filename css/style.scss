@@ -18,7 +18,7 @@ body {
   -o-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   background-color: #fafafa;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 .wrp {
   max-width: 100%;
@@ -1104,6 +1104,7 @@ body {
       img {
         height: ptr(73);
         max-width: 100%;
+        transition: 0.3s all ease-in-out;
       }
     }
     #menu {
@@ -1191,7 +1192,7 @@ body {
       }
     }
   }
-  &.fixTop {
+  &.fixService {
     box-shadow: ptr(15) 0 ptr(5) rgba(0, 0, 0, 0.2);
     .wrp {
       .logo {
@@ -1200,17 +1201,15 @@ body {
         }
       }
     }
-    &.fixTop.fixService {
-      #iconService2 {
-        pointer-events: all;
-        transform: translate3d(0, -50%, 0);
-        opacity: 1;
-      }
-      #menu {
-        transform: translate3d(0, 100%, 0);
-        opacity: 0;
-        pointer-events: none;
-      }
+    #iconService2 {
+      pointer-events: all;
+      transform: translate3d(0, -50%, 0);
+      opacity: 1;
+    }
+    #menu {
+      transform: translate3d(0, 100%, 0);
+      opacity: 0;
+      pointer-events: none;
     }
   }
   .toggleSearch {

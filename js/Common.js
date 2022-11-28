@@ -146,19 +146,10 @@ $(window).resize(function () {
 })
 $(window).scroll(function () {
     var offsetWindow = $(this).scrollTop();
-    var offsetTopIconService = $("#iconService").offset()?.top ?? $("#header1").offset()?.top ?? 0;
-    var hIconService = $("#iconService").height() ?? $("#header1").height() ?? 0;
-    if (offsetWindow > 0) {
-        $("#header1").addClass("fixTop");
-    }
-    if (offsetWindow > hIconService + offsetTopIconService) {
+    if (offsetWindow > 200) {
         $("#header1").addClass("fixService");
-    }
-    if (offsetWindow < hIconService + offsetTopIconService && offsetWindow > 0) {
+    } else {
         $("#header1").removeClass("fixService");
-    }
-    if (offsetWindow == 0) {
-        $("#header1").removeClass("fixTop");
     }
 });
 
