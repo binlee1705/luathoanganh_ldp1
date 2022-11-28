@@ -161,12 +161,16 @@
   #iconService2 .group {
     width: 100%;
   }
+  #iconService2 .group .item > a .text {
+    font-size: 0.6875rem;
+    margin-top: 0.125rem;
+  }
   #iconService2 .toggleSearch {
     display: none;
   }
   .openList {
     display: block;
-    width: 1.5625rem;
+    width: 1.25rem;
     margin-left: 0.9375rem;
   }
   .openList hr {
@@ -176,7 +180,7 @@
     transition: 0.5s all ease-in-out;
     z-index: 98;
     opacity: 1;
-    margin: 0.4375rem 0;
+    margin: 0.3125rem 0;
   }
   .openList hr:first-child {
     margin-top: 0;
@@ -194,7 +198,7 @@
   .openList.ac hr:nth-child(1) {
     background: #333;
     border-color: #333;
-    transform: rotate(135deg) translateX(2px) translateY(-8px);
+    transform: rotate(135deg) translateX(0px) translateY(-7px);
   }
   .openList.ac hr:nth-child(3) {
     background: #333;
@@ -504,8 +508,7 @@
   }
   #botMobile {
     padding: 0 0.3125rem;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100vw;
@@ -538,6 +541,9 @@
   #botMobile .btnBanner span.out {
     -webkit-animation: ah-rotate-3-out 0.6s forwards;
     animation: ah-rotate-3-out 0.6s forwards;
+  }
+  #afterFoot {
+    padding-bottom: 3.125rem;
   }
 }
 @media (max-width: 479px) {
