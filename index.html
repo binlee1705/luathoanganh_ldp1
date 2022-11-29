@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:bold,regular|Paytone%20One:bold,regular|Open%20Sans:bold,regular&amp;display=swap"
         rel="stylesheet" type="text/css">
+    <link href="bootstrap/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/font/fontawesome-all.css">
     <link href="css/animate.css" rel="stylesheet" />
     <link rel="stylesheet" href="js/Owl2/owl.carousel.css">
@@ -1060,8 +1061,26 @@
         </a>
     </div>
     <div id="overlay"></div>
+    <div class="modal fade" id="SuccessPop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="fal fa-times"></i></button>
+                    <div class="commonBanner">
+                        <a href="javascript://" title="">
+                            <img src="https://i0.wp.com/dariusforoux.com/wp-content/uploads/2018/11/success.png?fit=1200%2C900&ssl=1"
+                                alt="" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--JS-->
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/Owl2/owl.carousel.min.js"></script>
     <script src="js/Lightbox/lightbox.js"></script>
@@ -1070,7 +1089,11 @@
         //định dạng: yyyy/MM/dd HH:mm:ss,
         countDown("2022/12/05 12:00:00", function () {
             //Đoạn code xử lý sau khi chạy hết thời gian
-        }); 
+        });
+        //khi gửi thông tin thành công thì gọi hàm này
+        function popSuccess() {
+            $("#SuccessPop").modal("show");
+        }
     </script>
 </body>
 

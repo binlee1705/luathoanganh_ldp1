@@ -18,7 +18,7 @@ body {
   -o-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   background-color: #fafafa;
-  scroll-behavior: smooth !important;
+  padding-right: 0 !important;
 }
 .wrp {
   max-width: 100%;
@@ -1574,6 +1574,32 @@ body {
     -ms-animation: hotline-circle-img-anim 1s infinite ease-in-out;
     -o-animation: hotline-circle-img-anim 1s infinite ease-in-out;
     animation: hotline-circle-img-anim 1s infinite ease-in-out;
+  }
+}
+.commonBanner {
+  a {
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+#SuccessPop .modal-dialog {
+  max-height: 80vh;
+  top: 50%;
+  transform: translateY(-50%);
+  .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @keyframes hotline-circle-anim {
