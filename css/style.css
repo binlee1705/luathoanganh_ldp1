@@ -2194,7 +2194,7 @@ body {
 
 #header1 {
   background: #fff;
-  padding: 0.4375rem 0;
+  padding: 7px 0;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -2202,7 +2202,7 @@ body {
   z-index: 999999;
 }
 #header1 .wrp {
-  width: 85.375rem;
+  width: 1366px;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -2216,7 +2216,7 @@ body {
   flex: 1;
 }
 #header1 .wrp .logo img {
-  height: 4.5625rem;
+  height: 73px;
   max-width: 100%;
   transition: 0.3s all ease-in-out;
 }
@@ -2235,7 +2235,7 @@ body {
 }
 #header1 .wrp #menu ul li {
   position: relative;
-  padding: 0 1.875rem;
+  padding: 0 30px;
   display: flex;
   align-items: center;
 }
@@ -2243,26 +2243,26 @@ body {
   display: flex;
   align-items: center;
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 #header1 .wrp #menu ul li ul {
-  padding: 0.625rem 0;
+  padding: 10px 0;
   position: absolute;
   top: 110%;
   left: 0;
   opacity: 0;
   transition: 0.3s all ease-in-out;
   flex-direction: column;
-  border-radius: 0.4375rem;
+  border-radius: 7px;
   background: #fff;
-  min-width: 17.9375rem;
+  min-width: 287px;
   visibility: hidden;
 }
 #header1 .wrp #menu ul li ul li {
   padding: 0;
 }
 #header1 .wrp #menu ul li ul li a {
-  padding: 0.625rem 1.25rem;
+  padding: 10px 20px;
   width: 100%;
   font-weight: normal;
 }
@@ -2271,11 +2271,11 @@ body {
   color: inherit;
 }
 #header1 .wrp #menu ul li ul li ul {
-  left: calc(100% + 0.25rem);
-  top: -0.625rem !important;
+  left: calc(100% + 4px);
+  top: -10px !important;
 }
 #header1 .wrp #menu ul li:hover > ul {
-  top: calc(100% + 0.75rem);
+  top: calc(100% + 12px);
   opacity: 1;
   visibility: visible;
 }
@@ -2285,22 +2285,22 @@ body {
 #header1 .wrp #menu ul > li:after {
   content: "";
   width: 100%;
-  height: 0.75rem;
+  height: 12px;
   top: 100%;
   position: absolute;
 }
 #header1 .wrp #menu ul > li li:after {
   content: "";
-  width: 0.25rem;
+  width: 4px;
   height: 100%;
   left: 100%;
   position: absolute;
 }
 #header1.fixService {
-  box-shadow: 0.9375rem 0 0.3125rem rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 0 5px rgba(0, 0, 0, 0.2);
 }
 #header1.fixService .wrp .logo img {
-  height: 3.125rem;
+  height: 50px;
 }
 #header1.fixService #iconService2 {
   pointer-events: all;
@@ -2313,7 +2313,7 @@ body {
   pointer-events: none;
 }
 #header1 .toggleSearch {
-  width: 0.8125rem;
+  width: 13px;
   text-align: center;
 }
 #header1 .toggleSearch:hover {
@@ -2329,8 +2329,8 @@ body {
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
-  width: 28.0625rem;
-  height: 2.3125rem;
+  width: 449px;
+  height: 37px;
   border: 1px solid #cccccc;
   display: none;
 }
@@ -2341,12 +2341,12 @@ body {
   flex: 1;
   border: none;
   outline: none;
-  height: 2.1875rem;
-  padding: 0 0.625rem;
+  height: 35px;
+  padding: 0 10px;
 }
 #header1 .searchForm > div .btnSearch {
-  height: 2.3125rem;
-  width: 2.5rem;
+  height: 37px;
+  width: 40px;
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -2361,28 +2361,28 @@ body {
 }
 
 #footer {
-  margin-top: 3.125rem;
+  margin-top: 50px;
   background: url(../pic/bgFoot.png) top center no-repeat;
   background-size: cover;
-  padding: 1.5625rem 0 3.125rem 0;
+  padding: 25px 0 50px 0;
 }
 #footer .wrp {
-  width: 85.375rem;
+  width: 1366px;
   max-width: 100%;
   display: flex;
   color: #ffffff;
 }
 #footer .wrp .left {
-  padding-right: 3.75rem;
-  line-height: 1.875rem;
+  padding-right: 60px;
+  line-height: 30px;
 }
 #footer .wrp .left .logo {
   display: block;
-  margin-bottom: 0.9375rem;
+  margin-bottom: 15px;
 }
 #footer .wrp .left .border {
-  width: 4.9375rem;
-  margin: 1.25rem 0;
+  width: 79px;
+  margin: 20px 0;
   border-color: rgba(255, 255, 255, 0.4392156863) !important;
 }
 #footer .wrp .left .plug {
@@ -2390,12 +2390,12 @@ body {
   gap: 10px;
 }
 #footer .wrp .left .plug a {
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 44px;
+  height: 44px;
   border: 1px solid #fff;
   border-radius: 50%;
   color: #fff;
-  font-size: 1.375rem;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2407,25 +2407,25 @@ body {
 #footer .wrp .right {
   flex: 1;
   display: flex;
-  font-size: 0.8125rem;
-  padding-top: 1.25rem;
+  font-size: 13px;
+  padding-top: 20px;
 }
 #footer .wrp .right .group {
   flex: 1;
-  padding-right: 1.25rem;
+  padding-right: 20px;
 }
 #footer .wrp .right .group .nameCate {
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 1.5625rem;
+  margin-bottom: 25px;
   position: relative;
-  padding-bottom: 0.9375rem;
+  padding-bottom: 15px;
   display: block;
 }
 #footer .wrp .right .group .nameCate::after {
   content: "";
-  width: 4.9375rem;
+  width: 79px;
   height: 1px;
   background: #fff;
   position: absolute;
@@ -2441,8 +2441,8 @@ body {
   list-style: none;
 }
 #footer .wrp .right .group .list li {
-  margin-bottom: 0.625rem;
-  line-height: 1.5625rem;
+  margin-bottom: 10px;
+  line-height: 25px;
 }
 #footer .wrp .right .group .list li a {
   display: block;
@@ -2452,14 +2452,14 @@ body {
 }
 #footer .wrp .right .group .workTime {
   border: 2px solid #fff;
-  padding: 0.9375rem 1.25rem;
-  margin-top: 1.875rem;
+  padding: 15px 20px;
+  margin-top: 30px;
 }
 #footer .wrp .right .group .regis {
-  margin-top: 1.5625rem;
+  margin-top: 25px;
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 10px;
 }
 #footer .wrp .right .group .regis a {
   display: block;
@@ -2469,7 +2469,7 @@ body {
 }
 
 #afterFoot {
-  padding: 0.8125rem 0.625rem 0.9375rem 0.625rem;
+  padding: 13px 10px 15px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2504,11 +2504,11 @@ body {
   transition: 0.2s all linear;
 }
 #iconService2 .group .item > a .icon img {
-  height: 1.5625rem;
+  height: 25px;
   filter: brightness(0%);
 }
 #iconService2 .group .item > a .text {
-  font-size: 0.875rem;
+  font-size: 14px;
   white-space: nowrap;
 }
 #iconService2 .group .item:hover > a .icon {
@@ -2530,7 +2530,7 @@ body {
 #iconService2 .toggleSearch {
   width: 3%;
   text-align: right;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .openSub {
@@ -2545,19 +2545,19 @@ body {
   position: fixed;
   display: flex;
   flex-direction: column;
-  right: 1.875rem;
-  bottom: 5rem;
-  gap: 0.9375rem;
+  right: 30px;
+  bottom: 80px;
+  gap: 15px;
   z-index: 10;
 }
 #contactChat a {
   display: block;
 }
 #contactChat .hotline-ph-circle {
-  width: calc(100% + 1.875rem);
-  height: calc(100% + 1.875rem);
-  top: -0.9375rem;
-  left: -0.9375rem;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  top: -15px;
+  left: -15px;
   position: absolute;
   background-color: transparent;
   border-radius: 100%;
@@ -2570,8 +2570,8 @@ body {
 #contactChat .hotline-phone {
   position: relative;
   background-color: transparent;
-  width: 3.8125rem;
-  height: 3.8125rem;
+  width: 61px;
+  height: 61px;
   cursor: pointer;
   z-index: 200000 !important;
   -webkit-backface-visibility: hidden;
@@ -2592,10 +2592,10 @@ body {
   opacity: 0.5;
 }
 #contactChat .hotline-phone .text {
-  font-size: 1.375rem;
+  font-size: 22px;
   background: url(../pic/bgHotlineFoot.png) center no-repeat;
   background-size: 100% 100%;
-  padding: 0rem 2.5rem 0 1.5625rem;
+  padding: 0px 40px 0 25px;
   position: absolute;
   right: 100%;
   color: #fff;
@@ -2603,7 +2603,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   display: block;
-  line-height: 2.6875rem;
+  line-height: 43px;
   opacity: 0;
   transition: 0.3s all ease-in-out;
   pointer-events: none;
@@ -2613,10 +2613,10 @@ body {
   pointer-events: all;
 }
 #contactChat .hotline-ph-circle-fill {
-  width: calc(100% + 1.25rem);
-  height: calc(100% + 1.25rem);
-  top: -0.625rem;
-  left: -0.625rem;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  top: -10px;
+  left: -10px;
   position: absolute;
   background-color: #000;
   border-radius: 100%;
@@ -2630,7 +2630,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.875rem;
+  font-size: 30px;
   color: #fff;
   width: 100%;
   height: 100%;

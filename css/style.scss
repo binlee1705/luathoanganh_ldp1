@@ -1082,13 +1082,13 @@ body {
 
 #header1 {
   background: #fff;
-  padding: ptr(7) 0;
+  padding: 7px 0;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 999999;
   .wrp {
-    width: ptr(1366);
+    width: 1366px;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -1102,7 +1102,7 @@ body {
     }
     .logo {
       img {
-        height: ptr(73);
+        height: 73px;
         max-width: 100%;
         transition: 0.3s all ease-in-out;
       }
@@ -1120,31 +1120,31 @@ body {
         list-style: none;
         li {
           position: relative;
-          padding: 0 ptr(30);
+          padding: 0 30px;
           display: flex;
           align-items: center;
           a {
             display: flex;
             align-items: center;
             font-weight: bold;
-            font-size: ptr(18);
+            font-size: 18px;
           }
           ul {
-            padding: ptr(10) 0;
+            padding: 10px 0;
             position: absolute;
             top: 110%;
             left: 0;
             opacity: 0;
             transition: 0.3s all ease-in-out;
             flex-direction: column;
-            border-radius: ptr(7);
+            border-radius: 7px;
             background: #fff;
-            min-width: ptr(287);
+            min-width: 287px;
             visibility: hidden;
             li {
               padding: 0;
               a {
-                padding: ptr(10) ptr(20);
+                padding: 10px 20px;
                 width: 100%;
                 font-weight: normal;
               }
@@ -1155,14 +1155,14 @@ body {
                 }
               }
               ul {
-                left: calc(100% + #{ptr(4)});
-                top: ptr(-10) !important;
+                left: calc(100% + #{4px});
+                top: -10px !important;
               }
             }
           }
           &:hover {
             > ul {
-              top: calc(100% + ptr(12));
+              top: calc(100% + 12px);
               opacity: 1;
               visibility: visible;
             }
@@ -1175,14 +1175,14 @@ body {
           &:after {
             content: "";
             width: 100%;
-            height: ptr(12);
+            height: 12px;
             top: 100%;
             position: absolute;
           }
           li {
             &:after {
               content: "";
-              width: ptr(4);
+              width: 4px;
               height: 100%;
               left: 100%;
               position: absolute;
@@ -1193,11 +1193,11 @@ body {
     }
   }
   &.fixService {
-    box-shadow: ptr(15) 0 ptr(5) rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 0 5px rgba(0, 0, 0, 0.2);
     .wrp {
       .logo {
         img {
-          height: ptr(50);
+          height: 50px;
         }
       }
     }
@@ -1213,7 +1213,7 @@ body {
     }
   }
   .toggleSearch {
-    width: ptr(13);
+    width: 13px;
     text-align: center;
     &:hover {
       color: $color-hover;
@@ -1231,8 +1231,8 @@ body {
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
-    width: ptr(449);
-    height: ptr(37);
+    width: 449px;
+    height: 37px;
     border: 1px solid #cccccc;
     display: none;
     > div {
@@ -1241,12 +1241,12 @@ body {
         flex: 1;
         border: none;
         outline: none;
-        height: ptr(35);
-        padding: 0 ptr(10);
+        height: 35px;
+        padding: 0 10px;
       }
       .btnSearch {
-        height: ptr(37);
-        width: ptr(40);
+        height: 37px;
+        width: 40px;
         display: inline-flex !important;
         align-items: center;
         justify-content: center;
@@ -1262,37 +1262,37 @@ body {
   z-index: 9999;
 }
 #footer {
-  margin-top: ptr(50);
+  margin-top: 50px;
   background: url(../pic/bgFoot.png) top center no-repeat;
   background-size: cover;
-  padding: ptr(25) 0 ptr(50) 0;
+  padding: 25px 0 50px 0;
   .wrp {
-    width: ptr(1366);
+    width: 1366px;
     max-width: 100%;
     display: flex;
     color: #ffffff;
     .left {
-      padding-right: ptr(60);
-      line-height: ptr(30);
+      padding-right: 60px;
+      line-height: 30px;
       .logo {
         display: block;
-        margin-bottom: ptr(15);
+        margin-bottom: 15px;
       }
       .border {
-        width: ptr(79);
-        margin: ptr(20) 0;
+        width: 79px;
+        margin: 20px 0;
         border-color: #ffffff70 !important;
       }
       .plug {
         display: flex;
         gap: 10px;
         a {
-          width: ptr(44);
-          height: ptr(44);
+          width: 44px;
+          height: 44px;
           border: 1px solid #fff;
           border-radius: 50%;
           color: #fff;
-          font-size: ptr(22);
+          font-size: 22px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -1306,22 +1306,22 @@ body {
     .right {
       flex: 1;
       display: flex;
-      font-size: ptr(13);
-      padding-top: ptr(20);
+      font-size: 13px;
+      padding-top: 20px;
       .group {
         flex: 1;
-        padding-right: ptr(20);
+        padding-right: 20px;
         .nameCate {
-          font-size: ptr(18);
+          font-size: 18px;
           font-weight: bold;
           text-transform: uppercase;
-          margin-bottom: ptr(25);
+          margin-bottom: 25px;
           position: relative;
-          padding-bottom: ptr(15);
+          padding-bottom: 15px;
           display: block;
           &::after {
             content: "";
-            width: ptr(79);
+            width: 79px;
             height: 1px;
             background: #fff;
             position: absolute;
@@ -1337,8 +1337,8 @@ body {
           margin: 0;
           list-style: none;
           li {
-            margin-bottom: ptr(10);
-            line-height: ptr(25);
+            margin-bottom: 10px;
+            line-height: 25px;
             a {
               display: block;
               &:hover {
@@ -1349,14 +1349,14 @@ body {
         }
         .workTime {
           border: 2px solid #fff;
-          padding: ptr(15) ptr(20);
-          margin-top: ptr(30);
+          padding: 15px 20px;
+          margin-top: 30px;
         }
         .regis {
-          margin-top: ptr(25);
+          margin-top: 25px;
           display: flex;
           align-items: center;
-          gap: ptr(10);
+          gap: 10px;
           a {
             display: block;
             img {
@@ -1369,7 +1369,7 @@ body {
   }
 }
 #afterFoot {
-  padding: ptr(13) ptr(10) ptr(15) ptr(10);
+  padding: 13px 10px 15px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1401,12 +1401,12 @@ body {
           top: 0;
           transition: 0.2s all linear;
           img {
-            height: ptr(25);
+            height: 25px;
             filter: brightness(0%);
           }
         }
         .text {
-          font-size: ptr(14);
+          font-size: 14px;
           white-space: nowrap;
         }
       }
@@ -1436,7 +1436,7 @@ body {
   .toggleSearch {
     width: 3%;
     text-align: right;
-    font-size: ptr(16);
+    font-size: 16px;
   }
 }
 .openSub {
@@ -1449,18 +1449,18 @@ body {
   position: fixed;
   display: flex;
   flex-direction: column;
-  right: ptr(30);
-  bottom: ptr(80);
-  gap: ptr(15);
+  right: 30px;
+  bottom: 80px;
+  gap: 15px;
   z-index: 10;
   a {
     display: block;
   }
   .hotline-ph-circle {
-    width: calc(100% + #{ptr(30)});
-    height: calc(100% + #{ptr(30)});
-    top: ptr(-15);
-    left: ptr(-15);
+    width: calc(100% + #{30px});
+    height: calc(100% + #{30px});
+    top: -15px;
+    left: -15px;
     position: absolute;
     background-color: transparent;
     -webkit-border-radius: 100%;
@@ -1482,8 +1482,8 @@ body {
   .hotline-phone {
     position: relative;
     background-color: transparent;
-    width: ptr(61);
-    height: ptr(61);
+    width: 61px;
+    height: 61px;
     cursor: pointer;
     z-index: 200000 !important;
     -webkit-backface-visibility: hidden;
@@ -1506,10 +1506,10 @@ body {
       opacity: 0.5;
     }
     .text {
-      font-size: ptr(22);
+      font-size: 22px;
       background: url(../pic/bgHotlineFoot.png) center no-repeat;
       background-size: 100% 100%;
-      padding: ptr(0) ptr(40) 0 ptr(25);
+      padding: 0px 40px 0 25px;
       position: absolute;
       right: 100%;
       color: #fff;
@@ -1517,7 +1517,7 @@ body {
       top: 50%;
       transform: translateY(-50%);
       display: block;
-      line-height: ptr(43);
+      line-height: 43px;
       opacity: 0;
       transition: 0.3s all ease-in-out;
       pointer-events: none;
@@ -1531,10 +1531,10 @@ body {
   }
 
   .hotline-ph-circle-fill {
-    width: calc(100% + #{ptr(20)});
-    height: calc(100% + #{ptr(20)});
-    top: ptr(-10);
-    left: ptr(-10);
+    width: calc(100% + #{20px});
+    height: calc(100% + #{20px});
+    top: -10px;
+    left: -10px;
     position: absolute;
     background-color: #000;
     -webkit-border-radius: 100%;
@@ -1557,7 +1557,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: ptr(30);
+    font-size: 30px;
     color: #fff;
     width: 100%;
     height: 100%;
